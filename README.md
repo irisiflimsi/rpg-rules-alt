@@ -65,6 +65,12 @@ For example, suppose the active climber with a skill level of *57* wants to scal
 
 Another pragmatic rule is rolling *10* non-stop rolls in a row can be shortened to rolling a *1* on a *d10*. The chance $1/10$ is an approximation of $0.8<super>10</super>$. You probably should use this, whenever the level differenc is at least *10*.  In fact, the choice of *p=0.8* in the initial paragraph was made for the reason that this heuristic holds.
 
-## Applications to existing rules
+## Applications to Existing Rules
 
+Many rulesets rank a skill on a percentile scale *0%* through *100%*. This is the case for Rolemaster, Runequest, or Harnmaster. Rolling below your skill value makes you succeed. This approximates levels *0, 10, 20* and *30* at about *5%, 35%, 65%*, and *95%*. That means these rules have about fourty skill levels, in which all values fall according to our rules. The same is true for Dungeons and Dragons, Pathfinder, or the *d20* group of rules, which use twenty 5% steps, instead of the finer grained 1% step.
 
+Note that you could just multiply the *d20* skill levels by two or take half for the precentile system, why the strange, non-linear mapping? Since we do not intend to simulate other rules in this manner, you most certainly can do that conversion. If, however, you intend to approximate the original probabilities, you should stick to the "strange" conversion.
+
+The character sheet is applicable to all rules, because it captures the *out-world* probabilities. You need to fill in the relevant skills and tasks for the PC. Since the possible combinations are virtually limitless, list only the most common ones or add another sheet, if you do not find a suitable decomposition of skills and tasks.
+
+Most rules apply linear modifications (i.e. additions and subtractions) to the skill and task levels and this is what we do for specific rule conversions in the dedicated sections.
